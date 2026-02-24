@@ -1,0 +1,23 @@
+#Python
+__pycache__/
+*.pyc
+*.pyo
+*.pkl
+
+# Airflow
+logs/
+*.log
+airflow_hw/logs/
+
+#Docker
+.env
+
+# Mac
+.DS_Store
+
+# IDE
+.idea/
+
+# ML outputs
+data/models/
+data/predictions/
